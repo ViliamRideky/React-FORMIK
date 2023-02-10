@@ -58,7 +58,7 @@ const CompanyForm = () => {
     return (
         <div>
             <div className='header'>
-                <h1>Basic Formik with Yup - shcema validation</h1>
+                <h1>Basic Formik with Yup - schema validation</h1>
                 <p>EmailJS is used to send data</p>
             </div>
             <form ref={form} onSubmit={(e) => { formik.handleSubmit(); sendEmail(e) }} >
